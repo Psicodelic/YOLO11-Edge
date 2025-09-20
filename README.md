@@ -25,7 +25,7 @@ Finally, the project integrates with the Horizon X series' edge inference code f
 
   <h3 align="center">YOLO11-Edge</h3>
   <p align="center">
-    Deploy the YOLO11 onto Edge Devices ！
+    Deploy the Optimized YOLO11 onto Edge Devices ！
     <br />
     <a href="https://github.com/786739982/YOLO11-Edge"><strong>Explore the documentation of this project »</strong></a>
     <br />
