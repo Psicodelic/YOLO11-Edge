@@ -97,7 +97,7 @@ Test Quantized Model on Horizon X5 RDK
 ```
 <p align="center">
 <img src="assets/Model-Test.png", width=""/>
-<h3 align="center">Figure : Test Model On The Edge Device</h3>
+<h4 align="center">Figure : Test Model On The Edge Device (244 FPS)</h4>
 </p>
 
 
@@ -107,7 +107,7 @@ Test Quantized Model on Horizon X5 RDK
 
 #### Optimized YOLO11's Head
 
-* First，splitting one output head into six, corresponding to the outputs of three stride levels.
+* First, splitting one output head into six, corresponding to the outputs of three stride levels.
 * Second, filtering valid bbox outputs using a confidence score metric.
 * Third, perform dequantization on the valid bbox outputs.
 * Finally, perform the normal YOLO11 post-processing (including decoding, NMS, and possibly visualization).
