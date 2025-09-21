@@ -58,13 +58,13 @@ Finally, the project integrates with the Horizon X series' edge inference code f
 
 
 
-### Getting-Started
+## Getting-Started
 
-#### Requirements
+### Requirements
 
 1. [Hobot DNN](https://developer.d-robotics.cc/rdk_doc/04_toolchain_development)
 
-#### Deployment
+### Deployment
 
 Hardware
 
@@ -103,9 +103,9 @@ Test Quantized Model on Horizon X5 RDK
 
 
 
-### Innovations
+## Innovations
 
-#### Optimized YOLO11's Head
+### Optimized YOLO11's Head
 
 * First, splitting one output head into six, corresponding to the outputs of three stride levels.
 * Second, filtering valid bbox outputs using a confidence score metric.
@@ -114,7 +114,7 @@ Test Quantized Model on Horizon X5 RDK
 
 The benefit of the above operations is that, compared to the original version, this approach significantly reduces the computational load of bbox dequantization, thereby improving computational efficiency.
 
-#### More Streamlined, and User-Friendly Codebase
+### More Streamlined, and User-Friendly Codebase
 
 To implement model inference within the Horizon X series' edge inference code framework, numerous steps are required, including applying for a model handle, task handle, allocating memory space, checking validity, and more. Many of these steps differ significantly from those in commonly used PyTorch inference frameworks.
 
@@ -133,7 +133,7 @@ You can refer to ```src/yolo11-edge.cpp``` for usage details.
 
 
 
-### Author
+## Author
 
 Hongrui Zhu 
 
@@ -146,7 +146,7 @@ vx：Hong_Rui_0226
 
 
   
-### 版权说明
+## 版权说明
 
 该项目签署了MIT 授权许可，详情请参阅 [LICENSE](https://github.com/786739982/YOLO11-Edge/blob/master/LICENSE)
 
@@ -154,7 +154,7 @@ vx：Hong_Rui_0226
 
 
 
-### Acknowledgements
+## Acknowledgements
 
 - [DISCOVERSE](https://airbots.online/)
 
